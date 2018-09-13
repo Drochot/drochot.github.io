@@ -1,0 +1,16 @@
+html {background-color:aqua;text-align:center}
+body {z-index: 0;}
+table { background-color: white;text-align:center;  }
+table.center {margin-left:auto; margin-right:auto;}
+tr:nth-child(odd) { background-color: aquamarine}
+tr:nth-child(even) {background-color: lightgray}
+td:hover {background-color: purple}
+th:hover {background-color: purple}
+p.text {font-size: 30px; text-align: left}
+p.link {font-size: 20px; text-align: center }
+h1.title {font-size: 45px; text-align: center}
+h2.header {font-size: 30px; text-align: left}
+img.scrolling {position: fixed; bottom: 0; right: 0; width: 20%;  transform: scaleX(-1); z-index: -1}
+span.left {float: left; max-width: 47% }
+span.right {float: right; max-width: 47%}
+form {display: inline-block}
