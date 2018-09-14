@@ -4,9 +4,9 @@ table { background-color: white;text-align:center;  }
 table.center {margin-left:auto; margin-right:auto;}
 tr:nth-child(odd) { background-color: aquamarine}
 tr:nth-child(even) {background-color: lightgray}
-td:hover {background-color: purple}
-th:hover {background-color: purple}
-p.text {font-size: 30px; text-align: left}
+td:hover {background-color: skyblue}
+th:hover {background-color: skyblue}
+p.text {font-size: 25px; text-align: left}
 p.link {font-size: 20px; text-align: center }
 h1.title {font-size: 45px; text-align: center}
 h2.header {font-size: 30px; text-align: left}
@@ -14,3 +14,11 @@ img.scrolling {position: fixed; bottom: 0; right: 0; width: 20%;  transform: sca
 span.left {float: left; max-width: 47% }
 span.right {float: right; max-width: 47%}
 form {display: inline-block}
+ul {list-style-type: none;margin: 0;padding: 0; background-color: grey; overflow: hidden;}
+li {float: left; width: 33%; border-right: 1px solid white}
+li:last-child {border-right: none}
+a {display: block; padding: 8px;}
+a.table { padding:0px}
+li a { display: block; color: white; text-align: center; text-decoration: none;}
+li a:hover {background-color: black}
+li.active {background-color: skyblue}
